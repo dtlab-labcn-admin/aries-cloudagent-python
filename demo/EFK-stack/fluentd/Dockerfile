@@ -1,4 +1,4 @@
-FROM fluent/fluentd:stable
+FROM fluent/fluentd:v1.14-debian-1
 RUN apk add --update --virtual .build-deps \
     sudo build-base ruby-dev \
     && sudo gem install \
